@@ -53,3 +53,11 @@ white-list, or adjust the document to avoid the break.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
++ Revision: 813619
+- Import texlive-lua-check-hyphen
+- Import texlive-lua-check-hyphen
+
