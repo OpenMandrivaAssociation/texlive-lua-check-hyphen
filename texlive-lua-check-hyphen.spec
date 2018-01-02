@@ -1,12 +1,6 @@
-# revision 27227
-# category Package
-# catalog-ctan /macros/luatex/latex/lua-check-hyphen
-# catalog-date 2012-07-03 11:28:15 +0200
-# catalog-license other-free
-# catalog-version 0.1
 Name:		texlive-lua-check-hyphen
-Version:	0.1
-Release:	9
+Version:	0.5
+Release:	1
 Summary:	Mark hyphenations in a document, for checking
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/lua-check-hyphen
@@ -36,13 +30,8 @@ white-list, or adjust the document to avoid the break.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/lualatex/lua-check-hyphen/lua-check-hyphen.lua
-%{_texmfdistdir}/tex/lualatex/lua-check-hyphen/lua-check-hyphen.sty
-%doc %{_texmfdistdir}/doc/lualatex/lua-check-hyphen/doc/README.md
-%doc %{_texmfdistdir}/doc/lualatex/lua-check-hyphen/doc/luacheckhyphenmanual.pdf
-%doc %{_texmfdistdir}/doc/lualatex/lua-check-hyphen/doc/luacheckhyphenmanual.tex
-%doc %{_texmfdistdir}/doc/lualatex/lua-check-hyphen/doc/sample.pdf
-%doc %{_texmfdistdir}/doc/lualatex/lua-check-hyphen/doc/sample.tex
+%{_texmfdistdir}/tex/lualatex/lua-check-hyphen
+%doc %{_texmfdistdir}/doc/lualatex/lua-check-hyphen
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,11 +42,3 @@ white-list, or adjust the document to avoid the break.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
-+ Revision: 813619
-- Import texlive-lua-check-hyphen
-- Import texlive-lua-check-hyphen
-
