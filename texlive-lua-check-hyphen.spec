@@ -1,5 +1,5 @@
 Name:		texlive-lua-check-hyphen
-Version:	0.6
+Version:	0.7a
 Release:	1
 Summary:	Mark hyphenations in a document, for checking
 Group:		Publishing
