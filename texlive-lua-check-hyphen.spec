@@ -1,6 +1,6 @@
 Name:		texlive-lua-check-hyphen
 Version:	47527
-Release:	1
+Release:	2
 Summary:	Mark hyphenations in a document, for checking
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/lua-check-hyphen
