@@ -3,7 +3,7 @@ Version:	47527
 Release:	2
 Summary:	Mark hyphenations in a document, for checking
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/lua-check-hyphen
+URL:		https://www.ctan.org/tex-archive/macros/luatex/latex/lua-check-hyphen
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lua-check-hyphen.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lua-check-hyphen.doc.r%{version}.tar.xz
